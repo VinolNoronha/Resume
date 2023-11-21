@@ -1,0 +1,453 @@
+.upperrow{
+    display: flex;
+    gap: 20px
+}
+
+.profile-pic > img{
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+h1{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.blackbox{
+    background-color: black;
+    margin-top: -60px;
+    
+}
+
+.blackbox > p{
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+}
+
+#gradient{
+    height: 350px;
+    background: linear-gradient(to right, #F26849, #F24B78);
+    margin: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#gradient > p{
+    color: white;
+    margin: 20px;
+    font-family: 'Noto Sans Glagolitic', sans-serif;
+    font-size: 30px;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.education > h2{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+
+}
+
+#edu-info{
+    display: flex;
+    margin-top: -55px;
+    margin-left: 50px;
+    gap: 243px;
+}
+
+#edu-info{
+    font-family: 'Noto Sans Glagolitic', sans-serif;
+}
+
+#skills-proj{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.projects{
+    height: 300px;
+    width: 900px;
+    background-color: #0D0800;
+    border-radius: 7px 0px 0px 7px;
+}
+
+.projects > p{
+    font-family: 'Noto Sans Glagolitic', sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: -20px;
+}
+
+.projects > h2{
+    margin-top: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+
+}
+
+.skills{
+    height: 300px;
+    width: 600px;
+    background: linear-gradient(to right, #F26849, #F24B78);
+    border-radius: 0px 7px 7px 0px;
+    
+}
+
+.projects > button{ 
+    background: linear-gradient(to right,  #F26849, #F24B78 );
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    border: none;
+    margin-left: 20px ;
+    margin-top: -20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Noto Sans Glagolitic', sans-serif; 
+    font-size: 10px;
+    text-align: center;
+}
+
+.skills > h2{
+    margin-top: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+
+}
+
+.skills > ul{
+    font-family: 'Noto Sans Glagolitic', sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-left: -20px;
+    margin-top: -20px;
+    list-style: none;
+    
+
+}
+
+.skills > ul > li{
+    margin-bottom: 6px;
+}
+
+#page-3{
+    display: flex;
+    flex-direction: column;
+}
+.black-bg{
+    margin-top: 80px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0px;
+    height: 600px;
+    background: #0D0800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient-footer{
+    margin: -10px;
+    padding: 0px;
+    height: 130px;
+    background: linear-gradient(to right, #F26849, #F24B78);
+}
+
+.black-bg > p{
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    font-size: 70px;
+
+}
+
+.black-bg > button{
+    border: none;
+    background: linear-gradient(to right,  #F26849, #F24B78 );
+    font-family: 'Noto Sans Glagolitic', sans-serif;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: -30px;
+}
+
+.links{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+
+.links > a{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#credits{
+    font-family: 'Noto Sans Glagolitic', sans-serif;
+    color: white;
+    font-size: 14px;
+    margin: -40px;
+    text-align: center;
+    opacity: 0.2;
+}
+
+@media (max-width: 414px ){
+
+    .upperrow{
+        display: flex;
+        gap: 20px
+    }
+    
+
+    .profile-pic > img{
+        height: 300px;
+        border-radius: 50%;
+        margin: 40px;
+    }
+    
+    h1{
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 90px;
+        font-weight: bold;
+        white-space: nowrap;
+        padding-top: 50px;
+    }
+    
+    .blackbox{
+        background-color: black;
+        margin-top: -70px;
+        
+    }
+    
+    .blackbox > p{
+        color: white;
+        font-family: 'Libre Franklin', sans-serif;
+        text-align: center;
+        font-size: 30px;
+        white-space: nowrap;
+    }
+
+    #gradient{
+        height: 170px;
+        width:975px;
+        background: linear-gradient(to right, #F26849, #F24B78);
+        margin: 10px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #gradient > p{
+        color: white;
+        margin: 10px;
+        font-family: 'Noto Sans Glagolitic', sans-serif;
+        font-size: 20px;
+    }
+
+    .education{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    
+    .education > h2{
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 60px;
+    
+    }
+
+    .edupic > img{
+        margin: -30px;
+    }
+    
+    #edu-info{
+        display: flex;
+        margin-top: -20px;
+        margin-left: 10px;
+        gap: 180px;
+        white-space: nowrap;
+    }
+    
+    #edu-info{
+        font-family: 'Noto Sans Glagolitic', sans-serif;
+        font-size: 20px;
+    }
+
+    #skills-proj{
+        display: flex;
+        margin-top: 60px;
+        flex-direction: column;
+      
+
+    }
+    
+    .projects{
+        height: 600px;
+        width: 900px;
+        background-color: #0D0800;
+        border-radius: 9px 9px 0px 0px;
+        margin-right: -40px;
+    }
+    
+    .projects > p{
+        font-family: 'Noto Sans Glagolitic', sans-serif;
+        color: white;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-top: -20px;
+    }
+    
+    .projects > h2{
+        margin-top: 25px;
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 60px;
+        color: white;
+        margin-left: 20px;
+    
+    }
+    
+    .skills{
+        height: 400px;
+        width: 900px;
+        background: linear-gradient(to right, #F26849, #F24B78);
+        border-radius: 0px 0px 9px 9px;
+        
+    }
+    
+    .projects > button{ 
+        background: linear-gradient(to right,  #F26849, #F24B78 );
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 7px;
+        border: none;
+        margin-left: 20px ;
+        margin-top: -7px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Noto Sans Glagolitic', sans-serif; 
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .skills > h2{
+        margin-top: 25px;
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 60px;
+        color: white;
+        margin-left: 20px;
+    
+    }
+    
+    .skills > ul{
+        font-family: 'Noto Sans Glagolitic', sans-serif;
+        color: white;
+        font-size: 20px;
+        margin-left: -20px;
+        margin-top: -20px;
+        list-style: none;
+        
+    
+    }
+    
+    .skills > ul > li{
+        margin-bottom: 6px;
+    }
+
+    #page-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .black-bg{
+        padding: 0px;
+        width: 1000px;       
+        height: 500px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .gradient-footer{
+        margin: -10px;
+        padding: 0px;
+        height: 130px;
+        width: 1050px;
+        background: linear-gradient(to right, #F26849, #F24B78);
+    }
+    
+    .black-bg > p{
+        font-family: 'Libre Franklin', sans-serif;
+        color: #0D0800;
+        font-size: 100px;
+        margin-top: -40px;
+    
+    }
+    
+    .black-bg > button{
+        border: none;
+        background: linear-gradient(to right,  #F26849, #F24B78 );
+        font-family: 'Noto Sans Glagolitic', sans-serif;
+        color: white;
+        padding: 10px;
+        border-radius: 7px;
+        margin-top: -80px;
+        font-size: 20px;
+    }
+    
+    .links{
+        display: flex;
+        gap: 170px;
+        justify-content: center;
+        align-items: center;
+        height: 130px;
+    }
+    
+    .links > a{
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #credits{
+        font-family: 'Noto Sans Glagolitic', sans-serif;
+        color: white;
+        font-size: 14px;
+        margin: -40px;
+        text-align: center;
+        opacity: 0.2;
+    }
+    
+    
+
+
+    
+
+}
